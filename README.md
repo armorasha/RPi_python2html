@@ -28,6 +28,7 @@ Clone this public repo to your local machine for your development and testing pu
 2. Data_collector.php is a backend file that writes the received data into a MySQL database, whenever a POST request is received.
 3. Iot_dashboard.php is the frontend file that periodically gets new data from the MySQL database and displays it in a dashboard. Iot_dashboard_tiles.php and conn_php_math_db.php are its helper files. Iot_dashboard.php is the file users will visit to see the weather data.
 4. Db_cleaner.php is for cleaning up the database once in a while to keep the database size smaller. This file works similar to Data_collector.php.
+5. IoT device's exception errors are collected and logged into error.log file for troubleshooting.
 
 
 ## Where do these files run?
